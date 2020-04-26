@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.TestConsole", "Blockchain.Console\Blockchain.TestConsole.csproj", "{B6B2D40E-7CE4-4C92-82E5-BADABA16FF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Core", "Blockchain.Core\Blockchain.Core.csproj", "{DCEEEB9D-3B33-4035-9F1B-EFDB7376AFB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.Core", "Blockchain.Core\Blockchain.Core.csproj", "{DCEEEB9D-3B33-4035-9F1B-EFDB7376AFB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Tests", "Blockchain.Tests\Blockchain.Tests.csproj", "{FB542140-FBEE-44A2-946B-A74D6159D0AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.Tests", "Blockchain.Tests\Blockchain.Tests.csproj", "{FB542140-FBEE-44A2-946B-A74D6159D0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.TestConsole", "Blockchain.TestConsole\Blockchain.TestConsole.csproj", "{6F6496A2-4FAE-4BE9-8993-1A74C324F856}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6B2D40E-7CE4-4C92-82E5-BADABA16FF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6B2D40E-7CE4-4C92-82E5-BADABA16FF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6B2D40E-7CE4-4C92-82E5-BADABA16FF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6B2D40E-7CE4-4C92-82E5-BADABA16FF50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCEEEB9D-3B33-4035-9F1B-EFDB7376AFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCEEEB9D-3B33-4035-9F1B-EFDB7376AFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCEEEB9D-3B33-4035-9F1B-EFDB7376AFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{FB542140-FBEE-44A2-946B-A74D6159D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB542140-FBEE-44A2-946B-A74D6159D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB542140-FBEE-44A2-946B-A74D6159D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6496A2-4FAE-4BE9-8993-1A74C324F856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6496A2-4FAE-4BE9-8993-1A74C324F856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6496A2-4FAE-4BE9-8993-1A74C324F856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6496A2-4FAE-4BE9-8993-1A74C324F856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
