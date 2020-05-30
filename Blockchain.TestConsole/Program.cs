@@ -8,7 +8,7 @@ namespace Blockchain.TestConsole
     {
         static void Main(string[] args)
         {
-            var blockchain = new BlockChain<StringData>();
+            var blockchain = new BlockChain<StringData>(2);
             Console.WriteLine("Welcome to blockchain console!");
 
             while (true)

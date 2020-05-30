@@ -6,17 +6,22 @@ namespace Blockchain.Core
 {
     public class BlockChain : BlockChain<IData>
     {
+        public BlockChain(int difficulty) : base(difficulty)
+        {
+        }
     }
 
     public class BlockChain<TData> where TData : IData
     {
         private readonly IList<Block> _chain;
+        private readonly int _difficulty;
 
-        public BlockChain()
+        public BlockChain(int difficulty)
         {
+            _difficulty = difficulty;
             _chain = new List<Block>
             {
-                new Block(DateTime.UtcNow, new GenesisData()).AddedToChain(0, null)
+                new Block(DateTime.UtcNow, new GenesisData()).AddToChain(0, null, _difficulty)
             };
         }
 
@@ -28,7 +33,7 @@ namespace Blockchain.Core
             var last = LastBlock;
             var nextIndex = (last.Index ?? throw new InvalidOperationException("Blockchain is corrupted")) + 1;
 
-            _chain.Add(block.AddedToChain(nextIndex, last?.Hash));
+            _chain.Add(block.AddToChain(nextIndex, last.Hash, _difficulty));
             return this;
         }
 
