@@ -1,4 +1,4 @@
-# Blockchain concept .NET Core (ASO 5K4 2020)
+# Blockchain concept (ASO 5K4 2020)
 
 ## Dependencies:
 
