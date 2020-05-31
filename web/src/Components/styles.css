@@ -1,0 +1,14 @@
+.utn {
+    margin-top: 35px;
+}
+
+.utn .ui.one.cards>.card {
+    background-color: #f8f8f9;
+    font-size: 0.9rem;
+}
+
+.footer .ui.header {
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 1.5em;
+}
