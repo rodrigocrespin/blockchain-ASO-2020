@@ -1,5 +1,7 @@
 # Blockchain concept (ASO 5K4 2020)
 
+# Backend
+
 ## Dependencies:
 
 - .NET Core 3.1 SDK
@@ -15,4 +17,19 @@ dotnet run Blockchain.TestConsole.csproj
 ```
 cd Blockchain.Tests
 dotnet test
+```
+
+
+# Frontend
+
+## Dependencies:
+
+- Node JS v12.16.3
+
+
+## How to run
+
+```
+npm install
+npm start
 ```
